@@ -1,0 +1,21 @@
+PyQt6
+Pillow>=11.00.0
+#psycopg2
+
+
+NumPy
+pandas
+openpyxl  # Para leer archivos xlsx
+matplotlib
+
+blessed
+qtawesome
+
+qrcode
+segno
+
+reportlab
+#barcode
+python-barcode
+# Para datamatrix
+pylibdmtx

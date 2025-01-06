@@ -1,0 +1,16 @@
+PyQt6
+Pillow
+#psycopg2
+
+
+NumPy
+pandas
+openpyxl  # Para leer archivos xlsx
+matplotlib
+
+blessed
+qtawesome
+
+qrcode
+segno
+
