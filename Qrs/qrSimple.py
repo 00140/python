@@ -1,11 +1,11 @@
 import segno
 import pandas as pd
 
-Contenido = 'id_libro'
+Contenido = ''
 OUTPUT = 'qrcode002F6D.png'
 
 # Make QR code
-qr = segno.make(Contenido,version=2)
+qr = segno.make(Contenido)
 qr.save(OUTPUT, dark='#002F6D', scale=10,border=2)
 
 
