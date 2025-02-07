@@ -12,10 +12,10 @@ DB_PASSWORD = 'tu_contraseña'
 
 def get_db_connection():
     conn = psycopg2.connect(
-        host='192.168.1.30',
-        dbname='postgres',
-        user='postgres',
-        password='123'
+        host=DB_HOST,
+        dbname=DB_NAME,
+        user=DB_USER,
+        password=DB_PASSWORD
     )
     return conn
 
@@ -25,7 +25,7 @@ def get_data():
     cur = conn.cursor()
     
     # Realiza una consulta en la base de datos
-    cur.execute('SELECT * FROM cotizacion.serigrafia_precio_material;')  # Sustituye 'tu_tabla' con el nombre de tu tabla
+    cur.execute('SELECT * FROM cotizacion.serigrafia_precio_millar;')  
     rows = cur.fetchall()
     
     # Crea un diccionario con los resultados
